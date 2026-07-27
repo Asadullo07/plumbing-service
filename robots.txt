@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aquaproplumbing.com/sitemap.xml
+
+# Block admin or private paths (none currently, listed for future use)
+# Disallow: /admin/

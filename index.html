@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta -->
+  <title>AquaPro Plumbing | Licensed & Certified Plumbing Services</title>
+  <meta name="description"
+    content="AquaPro Plumbing delivers premium residential and commercial plumbing services. Emergency response, leak repair, drain cleaning, and full installation. Licensed, bonded, and insured." />
+  <meta name="keywords"
+    content="plumbing services, emergency plumber, leak repair, drain cleaning, water heater installation, licensed plumber, commercial plumbing" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://aquaproplumbing.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AquaPro Plumbing | Licensed & Certified Plumbing Services" />
+  <meta property="og:description"
+    content="Premium residential and commercial plumbing services. Emergency response 24/7." />
+  <meta property="og:url" content="https://aquaproplumbing.com/" />
+  <meta property="og:image" content="https://aquaproplumbing.com/assets/images/og-image.jpg" />
+  <meta property="og:site_name" content="AquaPro Plumbing" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AquaPro Plumbing | Licensed & Certified Plumbing Services" />
+  <meta name="twitter:description"
+    content="Premium residential and commercial plumbing services. Emergency response 24/7." />
+  <meta name="twitter:image" content="https://aquaproplumbing.com/assets/images/og-image.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Schema.org: Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "AquaPro Plumbing",
+    "url": "https://aquaproplumbing.com",
+    "logo": "https://aquaproplumbing.com/assets/images/logo.png",
+    "description": "Licensed and certified plumbing services for residential and commercial properties.",
+    "telephone": "+1-800-AQUAPRO",
+    "email": "info@aquaproplumbing.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1234 Waterway Blvd",
+      "addressLocality": "San Francisco",
+      "addressRegion": "CA",
+      "postalCode": "94102",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 00:00-24:00",
+    "priceRange": "$$",
+    "areaServed": "San Francisco Bay Area",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Plumbing Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency Plumbing"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Leak Repair"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Drain Cleaning"}}
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "847"
+    }
+  }
+  </script>
+
+  <!-- Schema.org: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you offer 24/7 emergency plumbing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our emergency line is staffed 24 hours a day, 7 days a week, including holidays. Average arrival time is under 45 minutes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are your plumbers licensed and insured?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every technician on our team holds a valid state plumbing license and is fully bonded and insured. We carry $2M in liability coverage."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loader-logo">
+      <i class="fa-solid fa-droplet"></i>
+      <span>AquaPro</span>
+    </div>
+    <div class="loader-bar">
+      <div class="loader-fill"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Follower -->
+  <div id="cursor-follower" aria-hidden="true"></div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header role="banner">
+    <nav id="navbar" class="navbar" aria-label="Main navigation">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#hero" class="nav-logo" aria-label="AquaPro Plumbing home">
+          <i class="fa-solid fa-droplet nav-logo-icon"></i>
+          <span>AquaPro</span>
+        </a>
+
+        <!-- Desktop Links -->
+        <ul class="nav-links" role="list">
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+          <li><a href="#portfolio" class="nav-link" data-section="portfolio">Projects</a></li>
+          <li><a href="#pricing" class="nav-link" data-section="pricing">Pricing</a></li>
+          <li><a href="#faq" class="nav-link" data-section="faq">FAQ</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+
+        <!-- Nav CTA -->
+        <div class="nav-actions">
+          <a href="tel:+18002782776" class="nav-phone" aria-label="Call us now">
+            <i class="fa-solid fa-phone"></i>
+            <span>Emergency</span>
+          </a>
+          <button class="btn-primary btn-sm" onclick="openModal('quote-modal')" aria-label="Get a free quote">Get
+            Quote</button>
+        </div>
+
+        <!-- Hamburger -->
+        <button id="hamburger" class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false"
+          aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu" role="navigation" aria-label="Mobile navigation" hidden>
+        <ul role="list">
+          <li><a href="#about" class="mobile-link">About</a></li>
+          <li><a href="#services" class="mobile-link">Services</a></li>
+          <li><a href="#portfolio" class="mobile-link">Projects</a></li>
+          <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+          <li><a href="#faq" class="mobile-link">FAQ</a></li>
+          <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+        <div class="mobile-cta">
+          <button class="btn-primary btn-full" onclick="openModal('quote-modal')">Get Free Quote</button>
+          <a href="tel:+18002782776" class="btn-emergency btn-full"><i class="fa-solid fa-phone-volume"></i> Emergency
+            Line</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section id="hero" class="hero" aria-label="Hero section">
+      <div class="hero-bg-gradient"></div>
+      <div class="hero-orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge fade-up" aria-label="Certification badge">
+            <i class="fa-solid fa-shield-check"></i>
+            Licensed &amp; Certified Professionals
+          </div>
+
+          <h1 class="hero-headline fade-up delay-1">
+            Reliable Plumbing<br />
+            Solutions For<br />
+            <span class="headline-accent" id="typed-text"></span>
+          </h1>
+
+          <p class="hero-sub fade-up delay-2">
+            AquaPro delivers precision plumbing for homes and businesses — from emergency burst pipes to full bathroom
+            installations. Licensed, bonded, and on call 24/7.
+          </p>
+
+          <div class="hero-actions fade-up delay-3">
+            <button class="btn-primary btn-hero" onclick="openModal('quote-modal')">
+              <i class="fa-solid fa-file-invoice"></i>
+              Get Free Quote
+            </button>
+            <a href="tel:+18002782776" class="btn-emergency btn-hero">
+              <i class="fa-solid fa-phone-volume"></i>
+              Emergency Service
+            </a>
+          </div>
+
+          <!-- Stats -->
+          <div class="hero-stats fade-up delay-4">
+            <div class="stat-card glass-card">
+              <span class="stat-number" data-count="2400">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number" data-count="15">0</span><span class="stat-suffix">yrs</span>
+              <span class="stat-label">Experience</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number" data-count="98">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number" data-count="45">0</span><span class="stat-suffix">min</span>
+              <span class="stat-label">Avg Arrival</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual fade-right delay-2" aria-hidden="true">
+          <div class="hero-card-main glass-card">
+            <div class="hero-illustration">
+              <img
+                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&q=80&auto=format&fit=crop&crop=center"
+                alt="Professional plumber at work" class="hero-real-img" loading="eager" width="500" height="420" />
+              <div class="hero-icon-rings">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+              </div>
+            </div>
+            <div class="hero-card-label">Expert Plumbers On Standby</div>
+          </div>
+          <div class="hero-float-card glass-card float-1">
+            <i class="fa-solid fa-clock"></i>
+            <span>24/7 Emergency</span>
+          </div>
+          <div class="hero-float-card glass-card float-2">
+            <i class="fa-solid fa-star"></i>
+            <span>4.9 / 5 Rating</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator" aria-label="Scroll down">
+        <div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Our Story</p>
+          <h2 id="about-heading" class="section-title fade-up delay-1">Built on Trust, Driven by Craft</h2>
+          <p class="section-sub fade-up delay-2">For over fifteen years, AquaPro has served the Bay Area with integrity,
+            precision, and a commitment to doing the job right the first time.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content fade-left">
+            <div class="about-text">
+              <h3>Our Mission</h3>
+              <p>We believe quality plumbing is invisible — when it works, you never notice it. Our mission is to keep
+                it that way: delivering work so precise and durable that our customers forget we were ever there.</p>
+            </div>
+            <div class="about-text">
+              <h3>Our Vision</h3>
+              <p>To be the most trusted plumbing company in the Bay Area — not through marketing, but through the
+                referrals of homeowners and business owners whose trust we earned with exceptional work.</p>
+            </div>
+            <div class="about-features">
+              <div class="about-feature">
+                <i class="fa-solid fa-certificate"></i>
+                <span>State Licensed &amp; Bonded</span>
+              </div>
+              <div class="about-feature">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>24/7 Emergency Response</span>
+              </div>
+              <div class="about-feature">
+                <i class="fa-solid fa-medal"></i>
+                <span>2-Year Labor Warranty</span>
+              </div>
+              <div class="about-feature">
+                <i class="fa-solid fa-users"></i>
+                <span>42 Certified Technicians</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual fade-right">
+            <div class="about-image-frame">
+              <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80&auto=format&fit=crop"
+                alt="AquaPro plumbing technician at work" class="about-real-img" loading="lazy" width="800"
+                height="560" />
+              <div class="about-badge glass-card">
+                <div class="about-badge-icon"><i class="fa-solid fa-award"></i></div>
+                <div>
+                  <strong>Best Plumber 2023</strong>
+                  <span>Bay Area Choice Awards</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-progress-block">
+              <div class="progress-item">
+                <div class="progress-header"><span>Customer Satisfaction</span><span>98%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="98"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-header"><span>On-Time Arrival</span><span>96%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="96"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-header"><span>First-Visit Resolution</span><span>92%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="92"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section id="services" class="section services" aria-labelledby="services-heading">
+      <div class="services-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">What We Do</p>
+          <h2 id="services-heading" class="section-title fade-up delay-1">Full-Spectrum Plumbing Services</h2>
+          <p class="section-sub fade-up delay-2">From a dripping faucet to a full commercial fit-out, our licensed team
+            handles every scale of plumbing with the same level of care.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Cards -->
+          <article class="service-card glass-card fade-up" onclick="openServiceModal('emergency')" tabindex="0"
+            role="button" aria-label="Emergency Plumbing service details">
+            <div class="service-icon-wrap service-emergency"><i class="fa-solid fa-triangle-exclamation"></i></div>
+            <h3>Emergency Plumbing</h3>
+            <p>Burst pipes, flooding, or no water — we respond in under 45 minutes, any hour of the day.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up delay-1" onclick="openServiceModal('leak')" tabindex="0"
+            role="button" aria-label="Leak Repair service details">
+            <div class="service-icon-wrap service-leak"><i class="fa-solid fa-droplet-slash"></i></div>
+            <h3>Leak Repair</h3>
+            <p>Advanced leak detection technology locates hidden leaks without destructive excavation.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up delay-2" onclick="openServiceModal('drain')" tabindex="0"
+            role="button" aria-label="Drain Cleaning service details">
+            <div class="service-icon-wrap service-drain"><i class="fa-solid fa-sink"></i></div>
+            <h3>Drain Cleaning</h3>
+            <p>High-pressure hydro-jetting clears blockages and restores full flow to drains and sewer lines.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up delay-3" onclick="openServiceModal('heater')" tabindex="0"
+            role="button" aria-label="Water Heater service details">
+            <div class="service-icon-wrap service-heater"><i class="fa-solid fa-fire-flame-curved"></i></div>
+            <h3>Water Heater</h3>
+            <p>Installation, repair, and maintenance for traditional tank and tankless water heater systems.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up" onclick="openServiceModal('bathroom')" tabindex="0"
+            role="button" aria-label="Bathroom Installation service details">
+            <div class="service-icon-wrap service-bath"><i class="fa-solid fa-bath"></i></div>
+            <h3>Bathroom Installation</h3>
+            <p>Complete bathroom plumbing from rough-in to finish — showers, tubs, toilets, and vanities.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up delay-1" onclick="openServiceModal('kitchen')" tabindex="0"
+            role="button" aria-label="Kitchen Plumbing service details">
+            <div class="service-icon-wrap service-kitchen"><i class="fa-solid fa-faucet-drip"></i></div>
+            <h3>Kitchen Plumbing</h3>
+            <p>Faucet installation, garbage disposal, dishwasher hookup, and under-sink plumbing.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up delay-2" onclick="openServiceModal('pipe')" tabindex="0"
+            role="button" aria-label="Pipe Repair service details">
+            <div class="service-icon-wrap service-pipe"><i class="fa-solid fa-bong"></i></div>
+            <h3>Pipe Repair</h3>
+            <p>Trenchless pipe lining and burst pipe replacement — minimal disruption to your property.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+
+          <article class="service-card glass-card fade-up delay-3" onclick="openServiceModal('commercial')" tabindex="0"
+            role="button" aria-label="Commercial Plumbing service details">
+            <div class="service-icon-wrap service-commercial"><i class="fa-solid fa-building"></i></div>
+            <h3>Commercial Plumbing</h3>
+            <p>Offices, restaurants, and multi-unit buildings — commercial-grade solutions at scale.</p>
+            <span class="service-cta">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section id="why" class="section why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Why AquaPro</p>
+          <h2 id="why-heading" class="section-title fade-up delay-1">The Standard Others Aim For</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-card glass-card fade-up">
+            <div class="why-icon"><i class="fa-solid fa-id-badge"></i></div>
+            <h3>Fully Licensed</h3>
+            <p>All technicians hold current state plumbing licenses. Every job is permit-compliant.</p>
+          </div>
+          <div class="why-card glass-card fade-up delay-1">
+            <div class="why-icon"><i class="fa-solid fa-tags"></i></div>
+            <h3>Transparent Pricing</h3>
+            <p>Upfront quotes, no hidden fees. You approve the price before any work begins.</p>
+          </div>
+          <div class="why-card glass-card fade-up delay-2">
+            <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+            <h3>Always Available</h3>
+            <p>Our dispatch team is awake 24/7. We treat your emergency as our own.</p>
+          </div>
+          <div class="why-card glass-card fade-up delay-3">
+            <div class="why-icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Fast Arrival</h3>
+            <p>Average emergency response time under 45 minutes within our service area.</p>
+          </div>
+          <div class="why-card glass-card fade-up">
+            <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>2-Year Warranty</h3>
+            <p>Every repair and installation backed by our 2-year parts and labor guarantee.</p>
+          </div>
+          <div class="why-card glass-card fade-up delay-1">
+            <div class="why-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Certified Experts</h3>
+            <p>Ongoing training means our team stays current with codes and best practices.</p>
+          </div>
+          <div class="why-card glass-card fade-up delay-2">
+            <div class="why-icon"><i class="fa-solid fa-microscope"></i></div>
+            <h3>Modern Equipment</h3>
+            <p>Thermal cameras, video inspection, and hydro-jetting for diagnostic precision.</p>
+          </div>
+          <div class="why-card glass-card fade-up delay-3">
+            <div class="why-icon"><i class="fa-solid fa-heart"></i></div>
+            <h3>Satisfaction First</h3>
+            <p>We don't close the job until you're satisfied. That's not a policy — it's our culture.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PORTFOLIO ===================== -->
+    <section id="portfolio" class="section portfolio" aria-labelledby="portfolio-heading">
+      <div class="portfolio-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Our Work</p>
+          <h2 id="portfolio-heading" class="section-title fade-up delay-1">Projects That Speak for Themselves</h2>
+        </div>
+
+        <!-- Filters -->
+        <div class="portfolio-filters fade-up delay-2" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="emergency">Emergency</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid" id="portfolio-grid">
+          <article class="portfolio-card fade-up" data-category="residential" onclick="openLightbox(0)"
+            aria-label="Modern Bathroom Renovation project">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-53fd55e/www.decorilla.com/online-decorating/wp-content/uploads/2025/04/Contemporary-master-bathroom-remodel-by-Decorilla-2048x1365.jpg"
+                alt="Modern bathroom renovation project" class="portfolio-real-img" loading="lazy" width="700"
+                height="525" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-content">
+                  <h3>Modern Bathroom Renovation</h3>
+                  <p>Full plumbing rough-in and finish</p>
+                  <span class="portfolio-tag">Residential</span>
+                  <i class="fa-solid fa-expand portfolio-expand"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card fade-up delay-1" data-category="commercial" onclick="openLightbox(1)"
+            aria-label="Restaurant Kitchen Plumbing project">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5t3RzPQcyhVwP53L_laiwvQYJ38a9aCbVO-aY4N858sHN3GnxBub2SEj4&s=10"
+                alt="Restaurant kitchen commercial plumbing installation" class="portfolio-real-img" loading="lazy"
+                width="700" height="525" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-content">
+                  <h3>Restaurant Kitchen System</h3>
+                  <p>Commercial-grade installation</p>
+                  <span class="portfolio-tag">Commercial</span>
+                  <i class="fa-solid fa-expand portfolio-expand"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card fade-up delay-2" data-category="emergency" onclick="openLightbox(2)"
+            aria-label="Burst Pipe Emergency Repair project">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://www.jrgasandwater.com.au/cdn/shop/files/burst-pipe-repair-service-1375749.png?v=1777088707&width=720"
+                alt="Emergency burst pipe repair" class="portfolio-real-img" loading="lazy" width="700" height="525" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-content">
+                  <h3>Burst Pipe Emergency Repair</h3>
+                  <p>Resolved in under 2 hours</p>
+                  <span class="portfolio-tag">Emergency</span>
+                  <i class="fa-solid fa-expand portfolio-expand"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card fade-up delay-3" data-category="residential" onclick="openLightbox(3)"
+            aria-label="Tankless Water Heater Install project">
+            <div class="portfolio-img-wrap">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=75&auto=format&fit=crop"
+                alt="Tankless water heater installation" class="portfolio-real-img" loading="lazy" width="700"
+                height="525" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-content">
+                  <h3>Tankless Water Heater Install</h3>
+                  <p>Energy-efficient upgrade</p>
+                  <span class="portfolio-tag">Residential</span>
+                  <i class="fa-solid fa-expand portfolio-expand"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card fade-up" data-category="commercial" onclick="openLightbox(4)"
+            aria-label="Office Building Refit project">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEpesJxVT7uID6UXIug9KhL1eInMHcdLaL3T_KhdgDnVhFP4nLxoymKqTh&s=10"
+                alt="Office building commercial plumbing refit" class="portfolio-real-img" loading="lazy" width="700"
+                height="525" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-content">
+                  <h3>Office Building Refit</h3>
+                  <p>12-floor commercial project</p>
+                  <span class="portfolio-tag">Commercial</span>
+                  <i class="fa-solid fa-expand portfolio-expand"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card fade-up delay-1" data-category="residential" onclick="openLightbox(5)"
+            aria-label="Full Kitchen Remodel project">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrqGEak5Wrqmg8htKFz9WCrXgwr0kTiX5HTB1kO5TW6ZOEKUuWRDlYK_k&s=10"
+                alt="Full kitchen plumbing remodel" class="portfolio-real-img" loading="lazy" width="700"
+                height="525" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-content">
+                  <h3>Full Kitchen Remodel</h3>
+                  <p>Layout redesign and new fixtures</p>
+                  <span class="portfolio-tag">Residential</span>
+                  <i class="fa-solid fa-expand portfolio-expand"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section id="testimonials" class="section testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Testimonials</p>
+          <h2 id="testimonials-heading" class="section-title fade-up delay-1">Trusted by Thousands</h2>
+        </div>
+        <div class="testimonial-slider fade-up delay-2" aria-label="Customer testimonials">
+          <div class="testimonial-track" id="testimonial-track">
+            <article class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <blockquote>
+                <p>"Called at 2am with a burst pipe flooding our kitchen. AquaPro was on-site in 38 minutes. Damage was
+                  minimal because of their speed. Truly exceptional service."</p>
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar"><img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80&auto=format&fit=crop&crop=face"
+                    alt="Sarah M." loading="lazy" /></div>
+                <div>
+                  <strong>Sarah M.</strong>
+                  <span>Homeowner, San Francisco</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <blockquote>
+                <p>"AquaPro handled the complete plumbing fit-out for our new restaurant. On schedule, on budget, and
+                  they caught a code issue that would have cost us our inspection."</p>
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar"><img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&auto=format&fit=crop&crop=face"
+                    alt="James T." loading="lazy" /></div>
+                <div>
+                  <strong>James T.</strong>
+                  <span>Restaurant Owner, Oakland</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <blockquote>
+                <p>"Three different plumbers couldn't find our slab leak. AquaPro located it with thermal imaging in 20
+                  minutes and fixed it with minimal concrete removal. Remarkable."</p>
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar"><img
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&auto=format&fit=crop&crop=face"
+                    alt="Linda K." loading="lazy" /></div>
+                <div>
+                  <strong>Linda K.</strong>
+                  <span>Property Manager, Berkeley</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <blockquote>
+                <p>"Honest pricing, clean work, and they respected our home. The technician explained every step before
+                  doing it. Exactly what you want from a service company."</p>
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar"><img
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80&auto=format&fit=crop&crop=face"
+                    alt="David R." loading="lazy" /></div>
+                <div>
+                  <strong>David R.</strong>
+                  <span>Homeowner, Palo Alto</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="slider-controls" aria-label="Testimonial navigation">
+            <button class="slider-btn" id="prev-btn" aria-label="Previous testimonial"><i
+                class="fa-solid fa-chevron-left"></i></button>
+            <div class="slider-dots" id="slider-dots" role="group" aria-label="Testimonial indicators"></div>
+            <button class="slider-btn" id="next-btn" aria-label="Next testimonial"><i
+                class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRICING ===================== -->
+    <section id="pricing" class="section pricing" aria-labelledby="pricing-heading">
+      <div class="pricing-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Investment</p>
+          <h2 id="pricing-heading" class="section-title fade-up delay-1">Straightforward Plans, No Surprises</h2>
+          <p class="section-sub fade-up delay-2">All plans include licensed technicians, a satisfaction guarantee, and
+            our 2-year warranty.</p>
+        </div>
+        <div class="pricing-grid">
+          <!-- Basic -->
+          <div class="pricing-card glass-card fade-up">
+            <div class="pricing-header">
+              <p class="pricing-tier">Basic</p>
+              <div class="pricing-price"><sup>$</sup><span>89</span><sub>/visit</sub></div>
+              <p class="pricing-desc">For single-service calls and minor repairs.</p>
+            </div>
+            <ul class="pricing-features" aria-label="Basic plan features">
+              <li><i class="fa-solid fa-check"></i> One service call included</li>
+              <li><i class="fa-solid fa-check"></i> Licensed technician</li>
+              <li><i class="fa-solid fa-check"></i> Written quote before work</li>
+              <li><i class="fa-solid fa-check"></i> 1-year labor warranty</li>
+              <li class="pricing-disabled"><i class="fa-solid fa-xmark"></i> Priority dispatch</li>
+              <li class="pricing-disabled"><i class="fa-solid fa-xmark"></i> Annual inspection</li>
+            </ul>
+            <button class="btn-outline btn-full" onclick="openModal('quote-modal')">Get Started</button>
+          </div>
+
+          <!-- Standard (Featured) -->
+          <div class="pricing-card pricing-featured glass-card fade-up delay-1">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-header">
+              <p class="pricing-tier">Standard</p>
+              <div class="pricing-price"><sup>$</sup><span>199</span><sub>/mo</sub></div>
+              <p class="pricing-desc">Complete maintenance for homeowners.</p>
+            </div>
+            <ul class="pricing-features" aria-label="Standard plan features">
+              <li><i class="fa-solid fa-check"></i> 2 service calls/month</li>
+              <li><i class="fa-solid fa-check"></i> Priority dispatch</li>
+              <li><i class="fa-solid fa-check"></i> Licensed technician</li>
+              <li><i class="fa-solid fa-check"></i> 2-year labor warranty</li>
+              <li><i class="fa-solid fa-check"></i> Annual pipe inspection</li>
+              <li class="pricing-disabled"><i class="fa-solid fa-xmark"></i> Commercial coverage</li>
+            </ul>
+            <button class="btn-primary btn-full" onclick="openModal('quote-modal')">Get Started</button>
+          </div>
+
+          <!-- Premium -->
+          <div class="pricing-card glass-card fade-up delay-2">
+            <div class="pricing-header">
+              <p class="pricing-tier">Premium</p>
+              <div class="pricing-price"><sup>$</sup><span>499</span><sub>/mo</sub></div>
+              <p class="pricing-desc">Full-service coverage for properties &amp; businesses.</p>
+            </div>
+            <ul class="pricing-features" aria-label="Premium plan features">
+              <li><i class="fa-solid fa-check"></i> Unlimited service calls</li>
+              <li><i class="fa-solid fa-check"></i> Emergency priority</li>
+              <li><i class="fa-solid fa-check"></i> Senior licensed tech</li>
+              <li><i class="fa-solid fa-check"></i> 2-year labor warranty</li>
+              <li><i class="fa-solid fa-check"></i> Quarterly inspection</li>
+              <li><i class="fa-solid fa-check"></i> Commercial coverage</li>
+            </ul>
+            <button class="btn-outline btn-full" onclick="openModal('quote-modal')">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section id="faq" class="section faq" aria-labelledby="faq-heading">
+      <div class="container faq-container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Questions</p>
+          <h2 id="faq-heading" class="section-title fade-up delay-1">Frequently Asked</h2>
+        </div>
+        <div class="faq-list fade-up delay-2" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+              Do you offer 24/7 emergency plumbing service?
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div id="faq-1" class="faq-answer" hidden>
+              <p>Yes. Our emergency dispatch line is staffed around the clock — 24 hours a day, 365 days a year,
+                including all holidays. Average arrival time within our service area is under 45 minutes.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+              Are your plumbers licensed and insured?
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div id="faq-2" class="faq-answer" hidden>
+              <p>Every AquaPro technician holds a current California State Plumbing License. The company carries $2
+                million in general liability insurance and workers' compensation. We can provide certificates of
+                insurance on request.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+              How do you price your work?
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div id="faq-3" class="faq-answer" hidden>
+              <p>We provide a written, itemized quote before any work begins. You review and approve it — no work starts
+                without your go-ahead. There are no after-the-fact surprise charges. What we quote is what you pay.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+              What areas do you serve?
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div id="faq-4" class="faq-answer" hidden>
+              <p>We serve the entire San Francisco Bay Area, including San Francisco, Oakland, Berkeley, San Jose, Palo
+                Alto, Marin County, and surrounding cities. Contact us to confirm coverage for your specific location.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+              Do you handle commercial properties?
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div id="faq-5" class="faq-answer" hidden>
+              <p>Yes. We have dedicated commercial plumbing teams experienced in restaurants, offices, apartment
+                buildings, retail spaces, and industrial facilities. Our commercial projects range from single-unit
+                repairs to full multi-floor fit-outs.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6">
+              What warranty do you provide?
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div id="faq-6" class="faq-answer" hidden>
+              <p>All of our repairs and installations come with a 2-year parts and labor warranty. If something we fixed
+                fails within that period due to our workmanship, we return and fix it at no charge.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow fade-up">Get In Touch</p>
+          <h2 id="contact-heading" class="section-title fade-up delay-1">We're Ready When You Are</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Form -->
+          <div class="contact-form-wrap fade-left">
+            <div class="glass-card contact-form-card">
+              <h3>Send a Message</h3>
+              <form id="contact-form" novalidate aria-label="Contact form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Full Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="name" name="name" autocomplete="name" required aria-required="true"
+                      placeholder="John Smith" />
+                    <span class="form-error" id="name-error" role="alert"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number <span aria-hidden="true">*</span></label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" required aria-required="true"
+                      placeholder="(415) 555-0100" />
+                    <span class="form-error" id="phone-error" role="alert"></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" autocomplete="email" required aria-required="true"
+                    placeholder="john@example.com" />
+                  <span class="form-error" id="email-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="service">Service Needed</label>
+                  <select id="service" name="service">
+                    <option value="">Select a service...</option>
+                    <option value="emergency">Emergency Plumbing</option>
+                    <option value="leak">Leak Repair</option>
+                    <option value="drain">Drain Cleaning</option>
+                    <option value="heater">Water Heater</option>
+                    <option value="bathroom">Bathroom Installation</option>
+                    <option value="kitchen">Kitchen Plumbing</option>
+                    <option value="pipe">Pipe Repair</option>
+                    <option value="commercial">Commercial Plumbing</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message <span aria-hidden="true">*</span></label>
+                  <textarea id="message" name="message" rows="4" required aria-required="true"
+                    placeholder="Describe the issue or project..."></textarea>
+                  <span class="form-error" id="message-error" role="alert"></span>
+                </div>
+                <button type="submit" class="btn-primary btn-full" id="submit-btn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <div id="form-success" class="form-success" hidden role="status">
+                  <i class="fa-solid fa-circle-check"></i>
+                  Message sent. We'll respond within 2 hours.
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div class="contact-info fade-right">
+            <!-- Map Placeholder -->
+            <div class="map-placeholder glass-card" aria-label="Business location map placeholder">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>1234 Waterway Blvd<br />San Francisco, CA 94102</p>
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="map-link">Open in Maps
+                <i class="fa-solid fa-external-link"></i></a>
+            </div>
+
+            <!-- Business Hours -->
+            <div class="hours-card glass-card">
+              <h3><i class="fa-solid fa-clock"></i> Business Hours</h3>
+              <ul class="hours-list">
+                <li><span>Monday – Friday</span><span>7am – 8pm</span></li>
+                <li><span>Saturday</span><span>8am – 6pm</span></li>
+                <li><span>Sunday</span><span>10am – 4pm</span></li>
+                <li class="hours-emergency"><span>Emergency Line</span><span>24 / 7</span></li>
+              </ul>
+            </div>
+
+            <!-- Emergency CTA -->
+            <div class="emergency-card">
+              <div class="emergency-pulse" aria-hidden="true"></div>
+              <i class="fa-solid fa-phone-volume"></i>
+              <div>
+                <p>Emergency Hotline</p>
+                <a href="tel:+18002782776" aria-label="Call our emergency line">(800) 278-2776</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo" aria-label="AquaPro Plumbing home">
+            <i class="fa-solid fa-droplet"></i>
+            AquaPro
+          </a>
+          <p>Licensed plumbing services for homes and businesses across the San Francisco Bay Area since 2009.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="Facebook" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Yelp" class="social-link"><i class="fa-brands fa-yelp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <nav class="footer-col" aria-label="Quick links">
+          <h4>Quick Links</h4>
+          <ul role="list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Services -->
+        <nav class="footer-col" aria-label="Services links">
+          <h4>Services</h4>
+          <ul role="list">
+            <li><a href="#services">Emergency Plumbing</a></li>
+            <li><a href="#services">Leak Repair</a></li>
+            <li><a href="#services">Drain Cleaning</a></li>
+            <li><a href="#services">Water Heater</a></li>
+            <li><a href="#services">Pipe Repair</a></li>
+            <li><a href="#services">Commercial</a></li>
+          </ul>
+        </nav>
+
+        <!-- Newsletter -->
+        <div class="footer-col footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Plumbing tips, seasonal checklists, and exclusive offers.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address" aria-label="Newsletter email address" />
+            <button class="btn-primary" aria-label="Subscribe to newsletter"><i
+                class="fa-solid fa-paper-plane"></i></button>
+          </div>
+          <div class="footer-legal">
+            <a href="#" onclick="openModal('privacy-modal')">Privacy Policy</a>
+            <a href="#" onclick="openModal('terms-modal')">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="footer-year"></span> AquaPro Plumbing. All rights reserved.</p>
+        <p>Licensed Contractor #PL-2009-847</p>
+      </div>
+    </div>
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top" hidden>
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+  </footer>
+
+  <!-- ===================== MODALS ===================== -->
+
+  <!-- Quote Modal -->
+  <div id="quote-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="quote-modal-title" hidden>
+    <div class="modal-overlay"></div>
+    <div class="modal-panel">
+      <button class="modal-close" onclick="closeModal('quote-modal')" aria-label="Close modal"><i
+          class="fa-solid fa-xmark"></i></button>
+      <div class="modal-header">
+        <div class="modal-icon"><i class="fa-solid fa-file-invoice"></i></div>
+        <h2 id="quote-modal-title">Get Your Free Quote</h2>
+        <p>We'll respond within 2 business hours.</p>
+      </div>
+      <form class="modal-form" id="quote-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="q-name">Name</label>
+            <input type="text" id="q-name" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="q-phone">Phone</label>
+            <input type="tel" id="q-phone" placeholder="(415) 555-0100" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="q-service">Service Needed</label>
+          <select id="q-service">
+            <option value="">Select a service...</option>
+            <option>Emergency Plumbing</option>
+            <option>Leak Repair</option>
+            <option>Drain Cleaning</option>
+            <option>Water Heater</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q-desc">Describe the Problem</label>
+          <textarea id="q-desc" rows="3" placeholder="Brief description..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Request Free Quote</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Emergency Modal -->
+  <div id="emergency-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="emergency-modal-title"
+    hidden>
+    <div class="modal-overlay"></div>
+    <div class="modal-panel modal-emergency-panel">
+      <button class="modal-close" onclick="closeModal('emergency-modal')" aria-label="Close modal"><i
+          class="fa-solid fa-xmark"></i></button>
+      <div class="modal-icon modal-icon-emergency"><i class="fa-solid fa-phone-volume"></i></div>
+      <h2 id="emergency-modal-title">Emergency Plumbing</h2>
+      <p>Our emergency team is standing by. Call now for immediate dispatch.</p>
+      <a href="tel:+18002782776" class="btn-emergency btn-full emergency-call-btn">(800) 278-2776</a>
+      <p class="modal-note">Average arrival: under 45 minutes</p>
+    </div>
+  </div>
+
+  <!-- Service Modal -->
+  <div id="service-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="service-modal-title" hidden>
+    <div class="modal-overlay"></div>
+    <div class="modal-panel">
+      <button class="modal-close" onclick="closeModal('service-modal')" aria-label="Close modal"><i
+          class="fa-solid fa-xmark"></i></button>
+      <div id="service-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-modal" class="modal lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="lightbox-title"
+    hidden>
+    <div class="modal-overlay"></div>
+    <div class="lightbox-panel">
+      <button class="modal-close lightbox-close" onclick="closeModal('lightbox-modal')" aria-label="Close lightbox"><i
+          class="fa-solid fa-xmark"></i></button>
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous project"><i
+          class="fa-solid fa-chevron-left"></i></button>
+      <div class="lightbox-content">
+        <div class="lightbox-img-wrap">
+          <div class="lightbox-img-placeholder" id="lightbox-img"><i class="fa-solid fa-image"></i></div>
+        </div>
+        <div class="lightbox-info">
+          <h2 id="lightbox-title">Project Title</h2>
+          <p id="lightbox-desc">Project description</p>
+          <span id="lightbox-tag" class="portfolio-tag"></span>
+        </div>
+      </div>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next project"><i
+          class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <!-- Privacy Policy Modal -->
+  <div id="privacy-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="privacy-modal-title" hidden>
+    <div class="modal-overlay"></div>
+    <div class="modal-panel modal-doc-panel">
+      <button class="modal-close" onclick="closeModal('privacy-modal')" aria-label="Close modal"><i
+          class="fa-solid fa-xmark"></i></button>
+      <h2 id="privacy-modal-title">Privacy Policy</h2>
+      <div class="modal-doc-content">
+        <p><strong>Effective Date: January 1, 2024</strong></p>
+        <p>AquaPro Plumbing ("we," "us," or "our") is committed to protecting your personal information. This policy
+          describes what we collect, how we use it, and your rights regarding your data.</p>
+        <h4>Information We Collect</h4>
+        <p>We collect information you voluntarily provide through our contact form, quote requests, and service calls,
+          including name, phone number, email address, and property address.</p>
+        <h4>How We Use Your Information</h4>
+        <p>We use your information to schedule and perform plumbing services, send appointment confirmations, respond to
+          inquiries, and occasionally send service offers.</p>
+        <h4>Data Retention</h4>
+        <p>We retain your information for as long as necessary to provide services and meet legal obligations. You may
+          request deletion at any time.</p>
+        <h4>Contact Us</h4>
+        <p>For privacy questions, email privacy@aquaproplumbing.com or call (800) 278-2776.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms Modal -->
+  <div id="terms-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="terms-modal-title" hidden>
+    <div class="modal-overlay"></div>
+    <div class="modal-panel modal-doc-panel">
+      <button class="modal-close" onclick="closeModal('terms-modal')" aria-label="Close modal"><i
+          class="fa-solid fa-xmark"></i></button>
+      <h2 id="terms-modal-title">Terms of Service</h2>
+      <div class="modal-doc-content">
+        <p><strong>Effective Date: January 1, 2024</strong></p>
+        <p>By using AquaPro Plumbing's website and services, you agree to these Terms of Service.</p>
+        <h4>Services</h4>
+        <p>All plumbing services are performed by licensed California plumbing contractors. Final scope of work is
+          agreed upon in a written quote before work begins.</p>
+        <h4>Payment</h4>
+        <p>Payment is due upon completion of work unless a written payment plan has been agreed upon in advance. We
+          accept major credit cards, check, and ACH transfer.</p>
+        <h4>Warranty</h4>
+        <p>Our 2-year labor warranty covers defects in workmanship. Manufacturer warranties apply to parts and
+          equipment.</p>
+        <h4>Limitation of Liability</h4>
+        <p>AquaPro's liability is limited to the value of the service performed. We are not liable for pre-existing
+          conditions, acts of nature, or damage caused by other contractors.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/modal.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
